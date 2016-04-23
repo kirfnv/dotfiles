@@ -60,6 +60,9 @@ Plugin 'digitaltoad/vim-jade'
 " --- Stylus ---
 Plugin 'wavded/vim-stylus'
 
+" --- Sass ---
+" Plugin ""
+
 " --- JSON ---
 Plugin 'elzr/vim-json'
 
@@ -73,6 +76,13 @@ Plugin 'mitsuhiko/vim-jinja'            " Jinja support for vim
 Plugin 'mitsuhiko/vim-python-combined'  " Combined Python 2/3 for Vim
 Plugin 'hynek/vim-python-pep8-indent'   " PEP8 indent
 Plugin 'jmcantrell/vim-virtualenv'      " Virtualenv support in VIM
+Plugin 'mitsuhiko/flask'
+
+" --- Ruby ---
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'slim-template/vim-slim'
+Plugin 'thoughtbot/vim-rspec'
 
 call vundle#end() " required
 filetype on
@@ -100,12 +110,9 @@ if has("gui_running")
     set cursorline
 endif
 set ttyfast
-<<<<<<< HEAD
 set t_Co=16
 set background=dark
-=======
 
->>>>>>> 30ea3e0ec2602b9d70d9bd98f2395faec7704fa5
 colorscheme hybrid
 " set guifont=Consolas:h13
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
